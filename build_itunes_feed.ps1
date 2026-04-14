@@ -65,14 +65,25 @@ foreach ($f in $files) {
   $title = Escape-Xml $f.BaseName
   $pub = (Get-Date $f.LastWriteTime).ToString('r')
   $enclosureUrl = ($BaseUrl.TrimEnd('/') + '/' + $f.Name)
-  $out += '  <item>'
-  $out += "    <title>$title</title>"
-  $out += '    <enclosure url="' + (Escape-Xml $enclosureUrl) + '" length="' + $f.Length + '" type="audio/mpeg" />'
-  $out += "    <guid>$(Escape-Xml $enclosureUrl)</guid>"
-  $out += "    <pubDate>$pub</pubDate>"
-  if ($duration -ne '') { $out += "    <itunes:duration>$duration</itunes:duration>" }
-  $out += "    <description>File size: $($f.Length) bytes</description>"
-  $out += '  </item>'
+    $out += '  <item>'
+    $out += "    <title>$title</title>"
+    $out += '    <enclosure url="' + (Escape-Xml $enclosureUrl) + '" length="' + $f.Length + '" type="audio/mpeg" />'
+    $out += "    <guid>$(Escape-Xml $enclosureUrl)</guid>"
+    $out += "    <pubDate>$pub</pubDate>"
+    if ($duration -ne '') { $out += "    <itunes:duration>$duration</itunes:duration>" }
+    # If a same-name .md exists next to the media file, include it as description and itunes:summary (read as UTF8)
+    $mdPath = Join-Path (Split-Path $f.FullName -Parent) ($f.BaseName + '.md')
+    if (Test-Path $mdPath) {
+      try {
+        $mdRaw = Get-Content -Path $mdPath -Raw -Encoding UTF8
+        $cdata = '<![CDATA[' + $mdRaw + ']]>'
+        $out += '    <description>' + $cdata + '</description>'
+        $out += '    <itunes:summary>' + $cdata + '</itunes:summary>'
+      } catch {
+        # ignore read errors
+      }
+    }
+    $out += '  </item>'
 }
 
 $out += '  </channel>'

@@ -1,41 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0">
   <channel>
     <title>dietgogo's podcast</title>
-    <link>https://dietgogo7.github.io/cast/</link>
+    <link>./</link>
     <description>dietgogo 의 팟캐스트</description>
-    <language>ko-KR</language>
-    <lastBuildDate>Tue, 14 Apr 2026 20:47:39 GMT</lastBuildDate>
-    <itunes:explicit>no</itunes:explicit>
-    <image>
-      <url>https://image.yes24.com/sysimage/mv3/com/ico_ai02.svg</url>
-      <title>dietgogo ??podcast</title>
-      <link>https://dietgogo7.github.io/cast/</link>
-    </image>
-    <itunes:image href="https://image.yes24.com/sysimage/mv3/com/ico_ai02.svg" />
+    <lastBuildDate>Tue, 14 Apr 2026 21:00:40 GMT</lastBuildDate>
+  <item>
+    <title>AI가 직접 결제하는 WebMCP 에이전틱웹</title>
+    <enclosure url="WebMCP.mp3" length="33413960" type="audio/mpeg" />
+    <guid>WebMCP.mp3</guid>
+    <pubDate>Tue, 14 Apr 2026 20:54:22 GMT</pubDate>
+  </item>
   <item>
     <title>회사가 토큰 아끼는 직원을 자르는 이유</title>
-    <enclosure url="https://dietgogo7.github.io/cast/token.mp3" length="19406936" type="audio/mpeg" />
-    <guid>https://dietgogo7.github.io/cast/token.mp3</guid>
+    <enclosure url="token.mp3" length="19406936" type="audio/mpeg" />
+    <guid>token.mp3</guid>
     <pubDate>Tue, 14 Apr 2026 20:40:02 GMT</pubDate>
-    <itunes:duration>17:30</itunes:duration>
-    <description>File size: 19406936 bytes</description>
   </item>
   <item>
     <title>일론머스크의 테라펩</title>
-    <enclosure url="https://dietgogo7.github.io/cast/terafab.mp3" length="21297667" type="audio/mpeg" />
-    <guid>https://dietgogo7.github.io/cast/terafab.mp3</guid>
+    <enclosure url="terafab.mp3" length="21297667" type="audio/mpeg" />
+    <guid>terafab.mp3</guid>
     <pubDate>Tue, 14 Apr 2026 20:09:34 GMT</pubDate>
-    <itunes:duration>19:06</itunes:duration>
-    <description>File size: 21297667 bytes</description>
-  </item>
-  <item>
-    <title>test</title>
-    <enclosure url="https://dietgogo7.github.io/cast/test.mp3" length="17342884" type="audio/mpeg" />
-    <guid>https://dietgogo7.github.io/cast/test.mp3</guid>
-    <pubDate>Tue, 14 Apr 2026 20:03:41 GMT</pubDate>
-    <itunes:duration>15:39</itunes:duration>
-    <description>File size: 17342884 bytes</description>
   </item>
   </channel>
 </rss>
