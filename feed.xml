@@ -1,23 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>Podcast</title>
-    <link>./</link>
-    <description>dietgogo podcast</description>
-    <lastBuildDate>Tue, 14 Apr 2026 20:21:31 GMT</lastBuildDate>
+    <title>dietgogo 의 podcast</title>
+    <link>https://dietgogo7.github.io/cast/</link>
+    <description>자동 생성된 팟캐스트 피드</description>
+    <language>ko-KR</language>
+    <lastBuildDate>Tue, 14 Apr 2026 20:36:10 GMT</lastBuildDate>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href='https://image.yes24.com/sysimage/mv3/com/ico_ai02.svg' />
   <item>
-    <title>terafab.mp3</title>
-    <enclosure url='terafab.mp3' length='21297667' type='audio/mpeg' />
-    <guid>terafab.mp3</guid>
+    <title>terafab</title>
+    <enclosure url='https://dietgogo7.github.io/cast/terafab.mp3' length='21297667' type='audio/mpeg' />
+    <guid>https://dietgogo7.github.io/cast/terafab.mp3</guid>
     <pubDate>Tue, 14 Apr 2026 20:09:34 GMT</pubDate>
-    <description>테라펩: 21297667 bytes</description>
+    <itunes:duration>19:06</itunes:duration>
+    <description>파일 크기: 21297667 bytes</description>
   </item>
   <item>
-    <title>test.mp3</title>
-    <enclosure url='test.mp3' length='17342884' type='audio/mpeg' />
-    <guid>test.mp3</guid>
+    <title>test</title>
+    <enclosure url='https://dietgogo7.github.io/cast/test.mp3' length='17342884' type='audio/mpeg' />
+    <guid>https://dietgogo7.github.io/cast/test.mp3</guid>
     <pubDate>Tue, 14 Apr 2026 20:03:41 GMT</pubDate>
-    <description>TEST: 17342884 bytes</description>
+    <itunes:duration>15:39</itunes:duration>
+    <description>파일 크기: 17342884 bytes</description>
   </item>
   </channel>
 </rss>
