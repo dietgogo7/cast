@@ -5,45 +5,50 @@
     <link>./</link>
     <description>dietgogo 의 팟캐스트</description>
     <lastBuildDate>Sun, 19 Apr 2026 18:59:30 GMT</lastBuildDate>
+    <image>
+      <url>https://image.yes24.com/sysimage/mv3/com/ico_ai02.svg</url>
+      <title>dietgogo podcast</title>
+    </image>
+    
   <item>
     <title>기업용 AI 프로젝트 95%가 실패하는 이유</title>
-    <enclosure url="기업용_AI_프로젝트_95_가_실패하는_이유.mp3" length="21472156" type="audio/mpeg" />
+    <enclosure url="https://dietgogo7.github.io/cast/기업용_AI_프로젝트_95_가_실패하는_이유.mp3" length="21472156" type="audio/mpeg" />
     <guid>기업용_AI_프로젝트_95_가_실패하는_이유.mp3</guid>
     <pubDate>Sun, 19 Apr 2026 18:35:11 GMT</pubDate>
   </item>
   <item>
     <title>95퍼센트 기업이 AI로 돈 날리는 이유</title>
-    <enclosure url="95퍼센트_기업이_AI로_돈_날리는_이유.mp3" length="26615163" type="audio/mpeg" />
+    <enclosure url="https://dietgogo7.github.io/cast/95퍼센트_기업이_AI로_돈_날리는_이유.mp3" length="26615163" type="audio/mpeg" />
     <guid>95퍼센트_기업이_AI로_돈_날리는_이유.mp3</guid>
     <pubDate>Sun, 19 Apr 2026 18:35:06 GMT</pubDate>
   </item>
   <item>
     <title>스스로 SQL 짜고 분석하는 AI 에이전트</title>
-    <enclosure url="스스로_SQL_짜고_분석하는_AI_에이전트.mp3" length="18873360" type="audio/mpeg" />
+    <enclosure url="https://dietgogo7.github.io/cast/스스로_SQL_짜고_분석하는_AI_에이전트.mp3" length="18873360" type="audio/mpeg" />
     <guid>스스로_SQL_짜고_분석하는_AI_에이전트.mp3</guid>
     <pubDate>Sun, 19 Apr 2026 18:33:54 GMT</pubDate>
   </item>
   <item>
     <title>AI 비서에게 선택받는 웹사이트의 조건</title>
-    <enclosure url="AI_비서에게_선택받는_웹사이트의_조건.mp3" length="23520463" type="audio/mpeg" />
+    <enclosure url="https://dietgogo7.github.io/cast/AI_비서에게_선택받는_웹사이트의_조건.mp3" length="23520463" type="audio/mpeg" />
     <guid>AI_비서에게_선택받는_웹사이트의_조건.mp3</guid>
     <pubDate>Sun, 19 Apr 2026 18:33:53 GMT</pubDate>
   </item>
   <item>
     <title>AI가 직접 결제하는 WebMCP 에이전틱웹</title>
-    <enclosure url="WebMCP.mp3" length="33413960" type="audio/mpeg" />
+    <enclosure url="https://dietgogo7.github.io/cast/WebMCP.mp3" length="33413960" type="audio/mpeg" />
     <guid>WebMCP.mp3</guid>
     <pubDate>Tue, 14 Apr 2026 20:54:22 GMT</pubDate>
   </item>
   <item>
     <title>회사가 토큰 아끼는 직원을 자르는 이유</title>
-    <enclosure url="token.mp3" length="19406936" type="audio/mpeg" />
+    <enclosure url="https://dietgogo7.github.io/cast/token.mp3" length="19406936" type="audio/mpeg" />
     <guid>token.mp3</guid>
     <pubDate>Tue, 14 Apr 2026 20:40:02 GMT</pubDate>
   </item>
   <item>
     <title>일론머스크의 테라펩</title>
-    <enclosure url="terafab.mp3" length="21297667" type="audio/mpeg" />
+    <enclosure url="https://dietgogo7.github.io/cast/terafab.mp3" length="21297667" type="audio/mpeg" />
     <guid>terafab.mp3</guid>
     <pubDate>Tue, 14 Apr 2026 20:09:34 GMT</pubDate>
   </item>
